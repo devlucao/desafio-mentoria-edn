@@ -1,4 +1,3 @@
-/* =============================================================
 ## Estrutura de um usuário salvo
 ```json
 {
@@ -47,4 +46,3 @@ Sugestões para evoluir a aplicação:
 ---
 # 📝 Licença
 Este projeto é de uso livre para fins educativos.
-============================================================== */
