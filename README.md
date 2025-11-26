@@ -1,3 +1,14 @@
+## 📘 Funcionamento do Cadastro
+Quando o usuário preenche o formulário de cadastro:
+1. O sistema carrega a lista atual de usuários do localStorage.
+2. Verifica se o username já existe.
+3. Verifica se o email é válido.
+4. Se tudo estiver correto:
+- Cria um objeto com `id`, `username`, `email` e `password`.
+- Armazena esse objeto no array `users`.
+- Salva o array novamente no localStorage.
+- Exibe: **"Cadastro realizado com sucesso!"**
+
 ## Estrutura de um usuário salvo
 ```json
 {
@@ -26,7 +37,7 @@ let users = JSON.parse(localStorage.getItem("users")) || [];
 ```js
 localStorage.setItem("users", JSON.stringify(users));
 ```
-✔️ Dados permanecem mesmo fechando o navegador.
+✔️ Dados permanecem mesmo fechando o navegador.  
 ✖️ Não existe criptografia (didático, não para produção).
 ---
 # 🧑‍🎓 Para quem este projeto é indicado?
