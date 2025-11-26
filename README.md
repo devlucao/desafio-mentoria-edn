@@ -47,7 +47,7 @@ Este material foi desenvolvido para **estudantes iniciantes** em JavaScript que 
 - Validação simples
 - Armazenamento local com localStorage
 ---
-# 🧪 Possíveis extensões
+# 🧪 Possíveis melhorias
 Sugestões para evoluir a aplicação:
 - Criptografar a senha com `CryptoJS`
 - Criar página de perfil após login
